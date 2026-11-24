@@ -25,3 +25,9 @@ npm run build    # production build in dist/
 ## Menu page
 - `src/data/menu.json` drives `menu.html`. Each item can have `options` (groups of choices with a price `delta`; a choice marked `"none"` is left out of the WhatsApp note). Add `"image": "/images/menu/name.jpg"` to an item to show a photo.
 - Needs confirming with the owners: descriptions for every item, what the daily promos and Party packs include, the six R19.90 flavour items (Banana, Bubblegum, Chocolate, Custard, Lime, Strawberry) that were left out, and whether Spicy Rice Jumbo should be R29.90 (site says R29.99).
+
+## Find a Chickano page
+- Built entirely from `src/data/branches.json` (address, phones, map query, directions link). Edit a branch there and the page updates.
+- "Open now" uses regular hours (Mon to Sat 8am to 8pm, Sun 9am to 8pm, South Africa time). It cannot know public holidays.
+- "Order from here" saves the branch for the cart and opens the Menu.
+- Needs confirming: Acornhoek and Steelpoort landlines (none on the old site), and a precise Steelpoort map pin.

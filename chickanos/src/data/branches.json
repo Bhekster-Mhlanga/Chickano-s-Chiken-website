@@ -3,7 +3,10 @@
     "name": "Lydenburg",
     "whatsapp": "27833328699",
     "tel": "083 332 8699",
-    "address": "Shop 3, Shoprite Centre, cnr Voortrekker & Lange Street, Mashishing, 1120",
+    "landline": "013 235 4115",
+    "address": "Shop 3, Shoprite Centre, cnr Voortrekker & Lange Street, Mashishing (Lydenburg), 1120",
+    "mapQuery": "-25.0931667,30.4495958",
+    "directions": "https://www.google.com/maps/search/?api=1&query=-25.0931667,30.4495958",
     "delivers": true,
     "deliveryFee": null
   },
@@ -11,7 +14,10 @@
     "name": "Burgersfort",
     "whatsapp": "27691301785",
     "tel": "069 130 1785",
-    "address": null,
+    "landline": "013 231 7234",
+    "address": "Shop 9, cnr Dirk Winterbach & Kruis Street, Burgersfort, 1150",
+    "mapQuery": "-24.6677285,30.3238414",
+    "directions": "https://www.google.com/maps/search/?api=1&query=-24.6677285,30.3238414",
     "delivers": true,
     "deliveryFee": null
   },
@@ -19,7 +25,10 @@
     "name": "Acornhoek",
     "whatsapp": "27833328886",
     "tel": "083 332 8886",
-    "address": null,
+    "landline": null,
+    "address": "Shop 20, Acornhoek Mega City, across from the Caltex Garage, Acornhoek, 1360",
+    "mapQuery": "-24.6058511,31.0398408",
+    "directions": "https://www.google.com/maps/search/?api=1&query=-24.6058511,31.0398408",
     "delivers": true,
     "deliveryFee": null
   },
@@ -27,7 +36,10 @@
     "name": "Steelpoort",
     "whatsapp": "27728812074",
     "tel": "072 881 2074",
-    "address": null,
+    "landline": null,
+    "address": "Block 4, Shop 9, Rodium Avenue Extension 4, Steelpoort, 1133",
+    "mapQuery": "Chickanos Steelpoort Rodium Avenue",
+    "directions": "https://maps.app.goo.gl/wefTDihPi9uHR99N9",
     "delivers": true,
     "deliveryFee": null
   }

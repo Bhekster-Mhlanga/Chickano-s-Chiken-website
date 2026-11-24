@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Find a Chickano’s – Branches in Lydenburg, Burgersfort, Acornhoek and Steelpoort</title>
+<meta name="description" content="Find your nearest Chickano’s Chicken: addresses, opening hours, phone numbers and directions for Lydenburg, Burgersfort, Acornhoek and Steelpoort.">
+<script>document.documentElement.classList.add("js")</script>
+<script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+{{> nav}}
+
+<main id="top">
+ <section class="m-hero ember">
+  <h1>Find a Chickano’s</h1>
+  <p>Four branches, all delivering every day from 8am to 8pm. Call, WhatsApp, get directions, or start your order.</p>
+ </section>
+ <section class="f-wrap">
+  <div class="f-map">
+   <iframe id="map" title="Map of the selected branch" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="f-list" id="branchList"></div>
+ </section>
+</main>
+
+{{> footer}}
+
+{{> cart}}
+</body>
+</html>
