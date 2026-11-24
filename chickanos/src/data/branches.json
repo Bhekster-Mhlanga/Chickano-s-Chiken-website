@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Lydenburg",
+    "whatsapp": "27833328699",
+    "tel": "083 332 8699",
+    "address": "Shop 3, Shoprite Centre, cnr Voortrekker & Lange Street, Mashishing, 1120",
+    "delivers": true,
+    "deliveryFee": null
+  },
+  {
+    "name": "Burgersfort",
+    "whatsapp": "27691301785",
+    "tel": "069 130 1785",
+    "address": null,
+    "delivers": true,
+    "deliveryFee": null
+  },
+  {
+    "name": "Acornhoek",
+    "whatsapp": "27833328886",
+    "tel": "083 332 8886",
+    "address": null,
+    "delivers": true,
+    "deliveryFee": null
+  },
+  {
+    "name": "Steelpoort",
+    "whatsapp": "27728812074",
+    "tel": "072 881 2074",
+    "address": null,
+    "delivers": true,
+    "deliveryFee": null
+  }
+]

@@ -1,13 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chickanos</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chickano’s Chicken – Fresh fried chicken at great prices</title>
+<meta name="description" content="Chickano’s Chicken has served affordable fried and grilled chicken for over 14 years. Order on WhatsApp from Lydenburg, Burgersfort, Acornhoek or Steelpoort.">
+<script>document.documentElement.classList.add("js")</script>
+<script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+{{> nav}}
+
+<main id="top">
+ <section class="hero" aria-label="Welcome">
+  <a class="cta" href="https://chickanos.co.za/menu/">View Menu</a>
+  <div class="ticker" aria-label="Menu categories">
+   <div class="track" id="track"></div>
+  </div>
+ </section>
+
+ <section class="about ember" id="about">
+  <div class="wrap">
+   <img class="badge rv-d" src="/images/logo.png" alt="Chickano’s Chicken">
+   <h2 class="rv-l">About us</h2>
+   <p class="rv-r">Welcome to Chickanos Chicken, where we’ve been serving up delicious, high-quality fast food for over 14 years. Since our founding, we’ve been dedicated to providing real value with our affordable yet exceptional meals.</p>
+   <p class="rv-l">At Chickanos Chicken, we believe in delivering the best of both worlds: unbeatable taste and outstanding quality. Our commitment to using fresh, top-grade ingredients ensures that every bite is a delight. We take pride in our brand and our promise to maintain the highest standards, bringing you mouthwatering chicken food that stands out in flavour and quality.</p>
+   <p class="rv-r">Join us and experience why Chickanos Chicken is a favourite choice for fast food lovers who appreciate great food at a great price.</p>
+  </div>
+ </section>
+
+ <section class="reviews ember" aria-labelledby="rvh">
+  <h2 id="rvh">Happy Customers</h2>
+  <div class="rv">
+   <button class="rv-arrow" id="prev" aria-label="Previous review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12H5M11 5l-7 7 7 7"/></svg></button>
+   <div class="rv-stage" id="stage" aria-live="polite"></div>
+   <button class="rv-arrow" id="next" aria-label="Next review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 5l7 7-7 7"/></svg></button>
+  </div>
+  <div class="dots" id="dots"></div>
+ </section>
+</main>
+
+{{> footer}}
+
+{{> cart}}
+</body>
 </html>

@@ -1,0 +1,24 @@
+<div class="shade" id="shade"></div>
+<aside class="cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="cartH">
+ <div class="cart-h"><h2 id="cartH">Your order</h2><button class="x" id="closeCart" aria-label="Close cart">×</button></div>
+ <div class="cart-b">
+  <div id="items"></div>
+  <div id="form">
+   <label class="fld">Branch<select id="branch"></select></label>
+   <div class="fld">Order type
+    <div class="seg"><label><input type="radio" name="mode" value="Delivery" checked><span>Delivery</span></label><label><input type="radio" name="mode" value="Pickup"><span>Pickup</span></label></div>
+   </div>
+   <label class="fld" id="addrW">Delivery address<textarea id="addr" rows="2" autocomplete="street-address" placeholder="Street, area, landmark"></textarea></label>
+   <label class="fld">Your name<input id="cname" autocomplete="name"></label>
+   <label class="fld">Your phone<input id="cphone" type="tel" autocomplete="tel"></label>
+   <label class="fld">Notes (optional)<textarea id="notes" rows="2" placeholder="Sauces, no spice, allergies…"></textarea></label>
+   <p class="note" id="closed" hidden>This branch is closed right now. Orders open 8am to 8pm. You can still send it and they will see it when they open.</p>
+  </div>
+ </div>
+ <div class="cart-f">
+  <div class="tot"><span>Estimated total</span><span id="total">R0.00</span></div>
+  <p class="fee" id="fee">Delivery fee confirmed by the branch on WhatsApp.</p>
+  <button class="send" id="send">Send order on WhatsApp</button>
+  <p class="err" id="err" role="alert"></p>
+ </div>
+</aside>
