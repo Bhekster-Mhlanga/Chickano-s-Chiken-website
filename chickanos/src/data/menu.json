@@ -1,0 +1,1355 @@
+{
+ "categories": [
+  {
+   "id": "deals",
+   "name": "Deals",
+   "icon": "🏷️"
+  },
+  {
+   "id": "breakfast",
+   "name": "Breakfast",
+   "icon": "🍳"
+  },
+  {
+   "id": "chicken",
+   "name": "Grilled Chicken",
+   "icon": "🍗"
+  },
+  {
+   "id": "meals",
+   "name": "Buckets & Platters",
+   "icon": "🧺"
+  },
+  {
+   "id": "wings",
+   "name": "Wings & Tenders",
+   "icon": "🔥"
+  },
+  {
+   "id": "burgers",
+   "name": "Burgers",
+   "icon": "🍔"
+  },
+  {
+   "id": "wraps",
+   "name": "Wraps & Sandwiches",
+   "icon": "🌯"
+  },
+  {
+   "id": "salads",
+   "name": "Salads",
+   "icon": "🥗"
+  },
+  {
+   "id": "sides",
+   "name": "Sides & Extras",
+   "icon": "🍟"
+  },
+  {
+   "id": "kids",
+   "name": "Kids Meals",
+   "icon": "🧒"
+  },
+  {
+   "id": "drinks",
+   "name": "Shakes, Ice Cream & Drinks",
+   "icon": "🥤"
+  }
+ ],
+ "items": [
+  {
+   "id": "monday-promo",
+   "cat": "deals",
+   "name": "Monday Promo",
+   "price": 75.0,
+   "desc": "Monday special"
+  },
+  {
+   "id": "tuesday-two",
+   "cat": "deals",
+   "name": "Tuesday Two",
+   "price": 75.0,
+   "desc": "Tuesday special"
+  },
+  {
+   "id": "woza-wednesday",
+   "cat": "deals",
+   "name": "Woza Wednesday",
+   "price": 75.0,
+   "desc": "Wednesday special"
+  },
+  {
+   "id": "thursday-two",
+   "cat": "deals",
+   "name": "Thursday Two",
+   "price": 75.0,
+   "desc": "Thursday special"
+  },
+  {
+   "id": "lekker-friday",
+   "cat": "deals",
+   "name": "Lekker Friday",
+   "price": 75.0,
+   "desc": "Friday special"
+  },
+  {
+   "id": "buy-1-chickos-wrap-get-1-free",
+   "cat": "deals",
+   "name": "Buy 1 Chickos Wrap, Get 1 Free",
+   "price": 75.0
+  },
+  {
+   "id": "buy-1-grilled-1-4-chicken-get-1-free",
+   "cat": "deals",
+   "name": "Buy 1 Grilled 1/4 Chicken, Get 1 Free",
+   "price": 89.9,
+   "options": [
+    {
+     "label": "Served with",
+     "choices": [
+      {
+       "name": "Chips",
+       "delta": 0
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "buy-1-spicy-rice-strips-get-1-free",
+   "cat": "deals",
+   "name": "Buy 1 Spicy Rice & Strips, Get 1 Free",
+   "price": 69.9
+  },
+  {
+   "id": "2-grilled-chicken-burgers-buy-1-get-1-free",
+   "cat": "deals",
+   "name": "2 Grilled Chicken Burgers (Buy 1, Get 1 Free)",
+   "price": 69.9
+  },
+  {
+   "id": "breakfast-combo-1",
+   "cat": "breakfast",
+   "name": "Breakfast Combo 1",
+   "price": 49.9
+  },
+  {
+   "id": "breakfast-combo-2",
+   "cat": "breakfast",
+   "name": "Breakfast Combo 2",
+   "price": 49.9
+  },
+  {
+   "id": "toasted-cheese",
+   "cat": "breakfast",
+   "name": "Toasted Cheese",
+   "price": 24.9
+  },
+  {
+   "id": "toasted-tomato",
+   "cat": "breakfast",
+   "name": "Toasted Tomato",
+   "price": 24.9
+  },
+  {
+   "id": "1-4-chicken",
+   "cat": "chicken",
+   "name": "1/4 Chicken",
+   "price": 39.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "No side",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Chips",
+       "delta": 12
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 12
+      },
+      {
+       "name": "Spicy rice & sauce",
+       "delta": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1-2-chicken",
+   "cat": "chicken",
+   "name": "1/2 Chicken",
+   "price": 79.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "No side",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Chips",
+       "delta": 13
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 13
+      },
+      {
+       "name": "Spicy rice & sauce",
+       "delta": 13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "full-chicken",
+   "cat": "chicken",
+   "name": "Full Chicken",
+   "price": 134.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "No side",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Chips",
+       "delta": 25
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 25
+      },
+      {
+       "name": "Spicy rice & sauce",
+       "delta": 25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2-full-chicken-chips",
+   "cat": "chicken",
+   "name": "2 Full Chicken + Chips",
+   "price": 279.9
+  },
+  {
+   "id": "full-pack-grilled-chicken",
+   "cat": "chicken",
+   "name": "Full Pack Grilled Chicken",
+   "price": 199.9
+  },
+  {
+   "id": "value-meal",
+   "cat": "chicken",
+   "name": "Value Meal",
+   "price": 189.9
+  },
+  {
+   "id": "spicy-rice-strips",
+   "cat": "chicken",
+   "name": "Spicy Rice & Strips",
+   "price": 49.9
+  },
+  {
+   "id": "skewers-mexican-4-chips",
+   "cat": "chicken",
+   "name": "Skewers Mexican 4 + Chips",
+   "price": 99.9
+  },
+  {
+   "id": "chicken-bucket",
+   "cat": "meals",
+   "name": "Chicken Bucket",
+   "price": 129.9,
+   "options": [
+    {
+     "label": "Size",
+     "choices": [
+      {
+       "name": "7 piece",
+       "delta": 0
+      },
+      {
+       "name": "8 piece",
+       "delta": 10
+      },
+      {
+       "name": "9 piece",
+       "delta": 20
+      },
+      {
+       "name": "10 piece",
+       "delta": 30
+      },
+      {
+       "name": "12 piece",
+       "delta": 60
+      },
+      {
+       "name": "15 piece",
+       "delta": 100
+      },
+      {
+       "name": "21 piece",
+       "delta": 170
+      },
+      {
+       "name": "25 piece",
+       "delta": 220
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "family-feast",
+   "cat": "meals",
+   "name": "Family Feast",
+   "price": 139.9,
+   "options": [
+    {
+     "label": "Size",
+     "choices": [
+      {
+       "name": "Feast 6",
+       "delta": 0
+      },
+      {
+       "name": "Feast 8",
+       "delta": 30
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "party-1",
+   "cat": "meals",
+   "name": "Party 1",
+   "price": 31.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "Chips",
+       "delta": 0
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "party-2",
+   "cat": "meals",
+   "name": "Party 2",
+   "price": 39.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "Chips",
+       "delta": 0
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "party-3",
+   "cat": "meals",
+   "name": "Party 3",
+   "price": 59.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "Chips",
+       "delta": 0
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "party-4-chips",
+   "cat": "meals",
+   "name": "Party 4 + Chips",
+   "price": 79.9
+  },
+  {
+   "id": "party-5-chips",
+   "cat": "meals",
+   "name": "Party 5 + Chips",
+   "price": 99.9
+  },
+  {
+   "id": "party-6-chips",
+   "cat": "meals",
+   "name": "Party 6 + Chips",
+   "price": 109.9
+  },
+  {
+   "id": "party-7-chips",
+   "cat": "meals",
+   "name": "Party 7 + Chips",
+   "price": 119.9
+  },
+  {
+   "id": "lunch-meal",
+   "cat": "meals",
+   "name": "Lunch Meal",
+   "price": 79.9
+  },
+  {
+   "id": "dinner-date",
+   "cat": "meals",
+   "name": "Dinner Date",
+   "price": 139.9
+  },
+  {
+   "id": "fried-platter-option-1",
+   "cat": "meals",
+   "name": "Fried Platter (Option 1)",
+   "price": 399.9
+  },
+  {
+   "id": "grilled-platter-option-2",
+   "cat": "meals",
+   "name": "Grilled Platter (Option 2)",
+   "price": 399.9
+  },
+  {
+   "id": "option-3-platter",
+   "cat": "meals",
+   "name": "Option 3 Platter",
+   "price": 349.9
+  },
+  {
+   "id": "6-spicy-wings",
+   "cat": "wings",
+   "name": "6 Spicy Wings",
+   "price": 39.9,
+   "options": [
+    {
+     "label": "Side",
+     "choices": [
+      {
+       "name": "No side",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Chips",
+       "delta": 10
+      },
+      {
+       "name": "Pap",
+       "delta": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12-spicy-wings",
+   "cat": "wings",
+   "name": "12 Spicy Wings",
+   "price": 82.9
+  },
+  {
+   "id": "16-spicy-wings-2-portions-chips",
+   "cat": "wings",
+   "name": "16 Spicy Wings + 2 Portions Chips",
+   "price": 129.9
+  },
+  {
+   "id": "24-spicy-wings",
+   "cat": "wings",
+   "name": "24 Spicy Wings",
+   "price": 164.9
+  },
+  {
+   "id": "25-spicy-wings",
+   "cat": "wings",
+   "name": "25 Spicy Wings",
+   "price": 159.9
+  },
+  {
+   "id": "36-spicy-wings",
+   "cat": "wings",
+   "name": "36 Spicy Wings",
+   "price": 229.9
+  },
+  {
+   "id": "spicy-wings-meal-8",
+   "cat": "wings",
+   "name": "Spicy Wings Meal 8",
+   "price": 79.9,
+   "options": [
+    {
+     "label": "Served with",
+     "choices": [
+      {
+       "name": "Chips",
+       "delta": 0
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spicy-wings-special-10-chips",
+   "cat": "wings",
+   "name": "Spicy Wings Special 10 + Chips",
+   "price": 79.9
+  },
+  {
+   "id": "spicy-wings-snack",
+   "cat": "wings",
+   "name": "Spicy Wings Snack",
+   "price": 29.9
+  },
+  {
+   "id": "fully-loaded-wing-box-meal",
+   "cat": "wings",
+   "name": "Fully Loaded Wing Box Meal",
+   "price": 79.9
+  },
+  {
+   "id": "grilled-wings-6",
+   "cat": "wings",
+   "name": "Grilled Wings 6",
+   "price": 49.9,
+   "options": [
+    {
+     "label": "Served with",
+     "choices": [
+      {
+       "name": "Wings only",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Chips",
+       "delta": 0
+      },
+      {
+       "name": "Pap & chakalaka",
+       "delta": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grilled-wings-12",
+   "cat": "wings",
+   "name": "Grilled Wings 12",
+   "price": 99.9
+  },
+  {
+   "id": "grilled-wings-20",
+   "cat": "wings",
+   "name": "Grilled Wings 20",
+   "price": 165.9
+  },
+  {
+   "id": "4-dunked-wings",
+   "cat": "wings",
+   "name": "4 Dunked Wings",
+   "price": 44.9
+  },
+  {
+   "id": "8-dunked-wings",
+   "cat": "wings",
+   "name": "8 Dunked Wings",
+   "price": 89.9
+  },
+  {
+   "id": "dunked-wings-6-chips",
+   "cat": "wings",
+   "name": "Dunked Wings 6 + Chips",
+   "price": 69.9
+  },
+  {
+   "id": "12-chicken-tenders-dip",
+   "cat": "wings",
+   "name": "12 Chicken Tenders + Dip",
+   "price": 79.9
+  },
+  {
+   "id": "24-chicken-tenders-dip",
+   "cat": "wings",
+   "name": "24 Chicken Tenders + Dip",
+   "price": 159.9
+  },
+  {
+   "id": "36-chicken-tenders-dip",
+   "cat": "wings",
+   "name": "36 Chicken Tenders + Dip",
+   "price": 199.9
+  },
+  {
+   "id": "dunked-12-chicken-tenders",
+   "cat": "wings",
+   "name": "Dunked 12 Chicken Tenders",
+   "price": 89.9
+  },
+  {
+   "id": "chicken-pops",
+   "cat": "wings",
+   "name": "Chicken Pops",
+   "price": 29.9
+  },
+  {
+   "id": "dunked-chicken-pops",
+   "cat": "wings",
+   "name": "Dunked Chicken Pops",
+   "price": 49.9
+  },
+  {
+   "id": "crispy-chicken-burger",
+   "cat": "burgers",
+   "name": "Crispy Chicken Burger",
+   "price": 49.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 10
+      },
+      {
+       "name": "Meal + Mojito",
+       "delta": 30
+      },
+      {
+       "name": "Meal + Shake",
+       "delta": 30
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tower-burger",
+   "cat": "burgers",
+   "name": "Tower Burger",
+   "price": 49.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 30
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "big-man-burger",
+   "cat": "burgers",
+   "name": "Big Man Burger",
+   "price": 59.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hawaiian-burger",
+   "cat": "burgers",
+   "name": "Hawaiian Burger",
+   "price": 49.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "triple-burger",
+   "cat": "burgers",
+   "name": "Triple Burger",
+   "price": 69.9,
+   "options": [
+    {
+     "label": "Chips",
+     "choices": [
+      {
+       "name": "No chips",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "With chips",
+       "delta": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dunked-burger",
+   "cat": "burgers",
+   "name": "Dunked Burger",
+   "price": 59.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fully-loaded-burger-box-meal",
+   "cat": "burgers",
+   "name": "Fully Loaded Burger Box Meal",
+   "price": 79.9
+  },
+  {
+   "id": "burger-box-4",
+   "cat": "burgers",
+   "name": "Burger Box 4",
+   "price": 199.9
+  },
+  {
+   "id": "classic-cheese-burger-chips",
+   "cat": "burgers",
+   "name": "Classic Cheese Burger + Chips",
+   "price": 49.9
+  },
+  {
+   "id": "double-classic-cheese-burger-chips",
+   "cat": "burgers",
+   "name": "Double Classic Cheese Burger + Chips",
+   "price": 59.9
+  },
+  {
+   "id": "triple-classic-cheese-burger-chips",
+   "cat": "burgers",
+   "name": "Triple Classic Cheese Burger + Chips",
+   "price": 79.9
+  },
+  {
+   "id": "grilled-chilli-cheese-chicken-burger-chips",
+   "cat": "burgers",
+   "name": "Grilled Chilli Cheese Chicken Burger + Chips",
+   "price": 49.9
+  },
+  {
+   "id": "double-grilled-chicken-burger-chips",
+   "cat": "burgers",
+   "name": "Double Grilled Chicken Burger + Chips",
+   "price": 59.9
+  },
+  {
+   "id": "mini-burger-box-2",
+   "cat": "burgers",
+   "name": "Mini Burger Box 2",
+   "price": 29.9
+  },
+  {
+   "id": "mini-burger-2-chips",
+   "cat": "burgers",
+   "name": "Mini Burger 2 + Chips",
+   "price": 29.9
+  },
+  {
+   "id": "mini-burger-3-chips",
+   "cat": "burgers",
+   "name": "Mini Burger 3 + Chips",
+   "price": 39.9
+  },
+  {
+   "id": "mini-burger-4-beef",
+   "cat": "burgers",
+   "name": "Mini Burger 4 Beef",
+   "price": 49.9
+  },
+  {
+   "id": "mini-burger-4-box",
+   "cat": "burgers",
+   "name": "Mini Burger 4 Box",
+   "price": 49.9
+  },
+  {
+   "id": "mini-burger-8-beef",
+   "cat": "burgers",
+   "name": "Mini Burger 8 Beef",
+   "price": 89.9
+  },
+  {
+   "id": "mini-burger-8-box",
+   "cat": "burgers",
+   "name": "Mini Burger 8 Box",
+   "price": 89.9
+  },
+  {
+   "id": "chicken-wrap",
+   "cat": "wraps",
+   "name": "Chicken Wrap",
+   "price": 54.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chicken-cheese-wrap",
+   "cat": "wraps",
+   "name": "Chicken Cheese Wrap",
+   "price": 54.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hawaiian-wrap",
+   "cat": "wraps",
+   "name": "Hawaiian Wrap",
+   "price": 54.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sweet-chilli-wrap",
+   "cat": "wraps",
+   "name": "Sweet Chilli Wrap",
+   "price": 54.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tangy-spicy-wrap",
+   "cat": "wraps",
+   "name": "Tangy Spicy Wrap",
+   "price": 54.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grilled-chilli-cheese-wrap",
+   "cat": "wraps",
+   "name": "Grilled Chilli Cheese Wrap",
+   "price": 54.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dunked-wrap",
+   "cat": "wraps",
+   "name": "Dunked Wrap",
+   "price": 59.9,
+   "options": [
+    {
+     "label": "Make it a meal",
+     "choices": [
+      {
+       "name": "Just the item",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Meal",
+       "delta": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chicken-sandwich-chips",
+   "cat": "wraps",
+   "name": "Chicken Sandwich & Chips",
+   "price": 49.9
+  },
+  {
+   "id": "green-salad",
+   "cat": "salads",
+   "name": "Green Salad",
+   "price": 39.9
+  },
+  {
+   "id": "large-grilled-chicken-salad",
+   "cat": "salads",
+   "name": "Large Grilled Chicken Salad",
+   "price": 49.9
+  },
+  {
+   "id": "large-green-salad-1-4-chicken",
+   "cat": "salads",
+   "name": "Large Green Salad & 1/4 Chicken",
+   "price": 59.9
+  },
+  {
+   "id": "large-green-salad-fillets",
+   "cat": "salads",
+   "name": "Large Green Salad & Fillets",
+   "price": 59.9
+  },
+  {
+   "id": "large-green-salad-4-grilled-fillets",
+   "cat": "salads",
+   "name": "Large Green Salad & 4 Grilled Fillets",
+   "price": 99.9
+  },
+  {
+   "id": "large-green-salad-4-grilled-chicken-skewers",
+   "cat": "salads",
+   "name": "Large Green Salad & 4 Grilled Chicken Skewers",
+   "price": 99.9
+  },
+  {
+   "id": "chips-medium-300g",
+   "cat": "sides",
+   "name": "Chips Medium 300g",
+   "price": 24.9
+  },
+  {
+   "id": "chips-large-400g",
+   "cat": "sides",
+   "name": "Chips Large 400g",
+   "price": 29.9
+  },
+  {
+   "id": "chips-jumbo-900g",
+   "cat": "sides",
+   "name": "Chips Jumbo 900g",
+   "price": 74.9
+  },
+  {
+   "id": "cheesy-chips-400g",
+   "cat": "sides",
+   "name": "Cheesy Chips 400g",
+   "price": 34.9
+  },
+  {
+   "id": "chilli-cheesy-chips-400g",
+   "cat": "sides",
+   "name": "Chilli Cheesy Chips 400g",
+   "price": 34.9
+  },
+  {
+   "id": "peri-peri-chips-350g",
+   "cat": "sides",
+   "name": "Peri-Peri Chips 350g",
+   "price": 29.9
+  },
+  {
+   "id": "potato-wedges-dip",
+   "cat": "sides",
+   "name": "Potato Wedges + Dip",
+   "price": 34.9
+  },
+  {
+   "id": "chip-sticks",
+   "cat": "sides",
+   "name": "Chip Sticks",
+   "price": 24.9
+  },
+  {
+   "id": "pap-medium-450g",
+   "cat": "sides",
+   "name": "Pap Medium 450g",
+   "price": 10.0
+  },
+  {
+   "id": "pap-large-900g",
+   "cat": "sides",
+   "name": "Pap Large 900g",
+   "price": 16.0
+  },
+  {
+   "id": "spicy-rice-large",
+   "cat": "sides",
+   "name": "Spicy Rice Large",
+   "price": 19.9
+  },
+  {
+   "id": "spicy-rice-jumbo",
+   "cat": "sides",
+   "name": "Spicy Rice Jumbo",
+   "price": 29.99
+  },
+  {
+   "id": "snack-mix",
+   "cat": "sides",
+   "name": "Snack Mix",
+   "price": 29.9
+  },
+  {
+   "id": "add-cheese",
+   "cat": "sides",
+   "name": "Add Cheese",
+   "price": 5.0
+  },
+  {
+   "id": "hashbrown",
+   "cat": "sides",
+   "name": "Hashbrown",
+   "price": 10.0
+  },
+  {
+   "id": "buddy-loaf",
+   "cat": "sides",
+   "name": "Buddy Loaf",
+   "price": 8.0
+  },
+  {
+   "id": "bun-3s",
+   "cat": "sides",
+   "name": "Bun 3s",
+   "price": 20.0
+  },
+  {
+   "id": "kids-burger-meal-burger-chips",
+   "cat": "kids",
+   "name": "Kids Burger Meal (Burger + Chips)",
+   "price": 59.9
+  },
+  {
+   "id": "kids-meal-nuggets-6",
+   "cat": "kids",
+   "name": "Kids Meal Nuggets 6",
+   "price": 59.9
+  },
+  {
+   "id": "2-mini-burgers-chips-cappy-lucky-packet",
+   "cat": "kids",
+   "name": "2 Mini Burgers + Chips + Cappy + Lucky Packet",
+   "price": 59.9
+  },
+  {
+   "id": "fried-chicken-chips-cappy-lucky-packet",
+   "cat": "kids",
+   "name": "Fried Chicken + Chips + Cappy + Lucky Packet",
+   "price": 59.9
+  },
+  {
+   "id": "kids-lucky-pack-surprise",
+   "cat": "kids",
+   "name": "Kids Lucky Pack Surprise",
+   "price": 29.9
+  },
+  {
+   "id": "milkshake",
+   "cat": "drinks",
+   "name": "Milkshake",
+   "price": 29.9,
+   "options": [
+    {
+     "label": "Flavour",
+     "choices": [
+      {
+       "name": "Banana",
+       "delta": 0
+      },
+      {
+       "name": "Bar One",
+       "delta": 0
+      },
+      {
+       "name": "Bubblegum",
+       "delta": 0
+      },
+      {
+       "name": "Chocolate",
+       "delta": 0
+      },
+      {
+       "name": "Custard",
+       "delta": 0
+      },
+      {
+       "name": "Iced Coffee",
+       "delta": 0
+      },
+      {
+       "name": "Kit-Kat",
+       "delta": 0
+      },
+      {
+       "name": "Lime",
+       "delta": 0
+      },
+      {
+       "name": "Nutella",
+       "delta": 0
+      },
+      {
+       "name": "Oreo",
+       "delta": 0
+      },
+      {
+       "name": "Salted Caramel",
+       "delta": 0
+      },
+      {
+       "name": "Strawberry",
+       "delta": 0
+      },
+      {
+       "name": "Flake",
+       "delta": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mojito",
+   "cat": "drinks",
+   "name": "Mojito",
+   "price": 24.9,
+   "options": [
+    {
+     "label": "Flavour",
+     "choices": [
+      {
+       "name": "Lemon Mint",
+       "delta": 0
+      },
+      {
+       "name": "Strawberry",
+       "delta": 0
+      },
+      {
+       "name": "Watermelon",
+       "delta": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cappuccino",
+   "cat": "drinks",
+   "name": "Cappuccino",
+   "price": 19.9
+  },
+  {
+   "id": "hot-chocolate",
+   "cat": "drinks",
+   "name": "Hot Chocolate",
+   "price": 24.9
+  },
+  {
+   "id": "soft-serve-cone",
+   "cat": "drinks",
+   "name": "Soft Serve Cone",
+   "price": 9.9,
+   "options": [
+    {
+     "label": "Topping",
+     "choices": [
+      {
+       "name": "Plain",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Springles",
+       "delta": 3
+      },
+      {
+       "name": "Flake",
+       "delta": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "soft-serve-cup",
+   "cat": "drinks",
+   "name": "Soft Serve Cup",
+   "price": 15.9,
+   "options": [
+    {
+     "label": "Topping",
+     "choices": [
+      {
+       "name": "Plain",
+       "delta": 0,
+       "none": true
+      },
+      {
+       "name": "Syrup",
+       "delta": 0
+      },
+      {
+       "name": "Flake",
+       "delta": 4
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

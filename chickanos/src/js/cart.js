@@ -32,7 +32,7 @@ function render(){
  $("cname").value=S.name;$("cphone").value=S.phone;$("addr").value=S.addr;$("notes").value=S.notes;
  save();
 }
-function add(it){var f=S.items.filter(function(x){return x.id===it.id&&x.note===(it.note||"")})[0];if(f)f.qty+=it.qty||1;else S.items.push({id:it.id,name:it.name,price:it.price,qty:it.qty||1,note:it.note||""});render();openC()}
+function add(it,o){var f=S.items.filter(function(x){return x.id===it.id&&x.note===(it.note||"")})[0];if(f)f.qty+=it.qty||1;else S.items.push({id:it.id,name:it.name,price:it.price,qty:it.qty||1,note:it.note||""});render();if(!(o&&o.silent))openC()}
 window.Cart={add:add,open:openC};
 var last;function openC(){last=document.activeElement;document.documentElement.classList.add("open");document.body.style.overflow="hidden";setTimeout(function(){$("closeCart").focus()},50)}
 function closeC(){document.documentElement.classList.remove("open");document.body.style.overflow="";if(last)last.focus()}

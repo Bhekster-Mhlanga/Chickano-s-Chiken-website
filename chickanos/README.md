@@ -21,3 +21,7 @@ npm run build    # production build in dist/
 - Remove the "Add a sample item (demo)" button in `cart.js` once the Menu page exists.
 - Nav links still point at the live chickanos.co.za pages; change them as pages are rebuilt.
 - Redirect the old `/our-story/` URL to `/#about` on the host.
+
+## Menu page
+- `src/data/menu.json` drives `menu.html`. Each item can have `options` (groups of choices with a price `delta`; a choice marked `"none"` is left out of the WhatsApp note). Add `"image": "/images/menu/name.jpg"` to an item to show a photo.
+- Needs confirming with the owners: descriptions for every item, what the daily promos and Party packs include, the six R19.90 flavour items (Banana, Bubblegum, Chocolate, Custard, Lime, Strawberry) that were left out, and whether Spicy Rice Jumbo should be R29.90 (site says R29.99).

@@ -3,14 +3,17 @@ import "@fontsource/nunito/500.css";
 import "@fontsource/nunito/700.css";
 import "@fontsource/nunito/800.css";
 import "../css/main.css";
+import "../css/menu.css";
 import { initNav } from "./nav.js";
 import { initTicker } from "./ticker.js";
 import { initReveal } from "./reveal.js";
 import { initReviews } from "./reviews.js";
 import { initCart } from "./cart.js";
+import { initMenu } from "./menu.js";
 
 initNav();
 initTicker();
 initReveal();
 initReviews();
 initCart();
+initMenu();

@@ -3,6 +3,7 @@ const REVIEWS=reviews.map((r)=>[r.text,r.name]);
 const $=(i)=>document.getElementById(i);
 
 export function initReviews(){
+if(!$("dots"))return;
 /* reviews */
 var ri=0,dots=$("dots");
 dots.innerHTML=REVIEWS.map(function(_,i){return "<button aria-label=\"Review "+(i+1)+"\" data-i=\""+i+"\"></button>"}).join("");
