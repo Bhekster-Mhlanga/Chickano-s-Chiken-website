@@ -7,6 +7,7 @@ import { initMenu } from "./menu.js";
 import { initFind } from "./find.js";
 import { initContact } from "./contact.js";
 import { initFranchising } from "./franchising.js";
+import { initShopBelt } from "./shop-belt.js";
 
 initNav();
 initTicker();
@@ -17,3 +18,4 @@ initMenu();
 initFind();
 initContact();
 initFranchising();
+initShopBelt();

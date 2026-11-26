@@ -47,3 +47,6 @@
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:80;transform:translate(-50%,30px);padding:12px 20px;border-radius:999px;background:#1faa59;color:#fff;font-weight:800;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 @media (max-width:560px){.m-cards{grid-template-columns:1fr 1fr;gap:12px}.cb h3{font-size:1.05rem}.add{padding:8px 14px}.ph{font-size:2.4rem}.cf{flex-direction:column;align-items:flex-start}}
+.card{scroll-margin-top:190px}
+.card.flash{animation:flash 1s ease 3}
+@keyframes flash{50%{border-color:var(--ember);box-shadow:0 0 0 4px rgba(255,122,26,.45)}}
