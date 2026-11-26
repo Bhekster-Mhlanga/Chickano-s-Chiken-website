@@ -7,7 +7,10 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "images": "node scripts/optimize-images.mjs",
+    "predev": "node scripts/optimize-images.mjs",
+    "prebuild": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "@fontsource/lilita-one": "latest",
@@ -16,6 +19,7 @@
   "devDependencies": {
     "vite": "latest",
     "vite-plugin-handlebars": "latest",
-    "prettier": "latest"
+    "prettier": "latest",
+    "sharp": "latest"
   }
 }

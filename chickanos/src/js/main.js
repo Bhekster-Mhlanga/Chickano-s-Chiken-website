@@ -1,12 +1,3 @@
-import "@fontsource/lilita-one";
-import "@fontsource/nunito/500.css";
-import "@fontsource/nunito/700.css";
-import "@fontsource/nunito/800.css";
-import "../css/main.css";
-import "../css/menu.css";
-import "../css/find.css";
-import "../css/contact.css";
-import "../css/franchising.css";
 import { initNav } from "./nav.js";
 import { initTicker } from "./ticker.js";
 import { initReveal } from "./reveal.js";
