@@ -1,0 +1,21 @@
+.c-wrap{max-width:1180px;margin:0 auto;padding:10px 16px 90px}
+.c-info{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px}
+.t-card{padding:18px 20px;border-radius:20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.t-card h3{font-size:1.25rem;margin-bottom:4px}
+.t-card p{margin:0;font-weight:700}
+.t-card a{color:#fff}
+.t-card .t-l{margin-top:10px;font-size:.9rem}
+.t-card .t-l a{color:var(--ember)}
+.c-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:start}
+.c-form{padding:24px;border-radius:24px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.c-form h2,.c-h{font-size:1.8rem;margin-bottom:6px;scroll-margin-top:100px}
+.c-h{margin-bottom:14px}
+.c-form .fld[hidden]{display:none}
+.seg.three{grid-template-columns:repeat(3,1fr)}
+.seg label{position:relative}
+.c-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.c-btns .send{width:auto;flex:1 1 220px}
+.c-btns .ghost{flex:1 1 160px;padding:14px}
+.c-note{margin:14px 0 0;font-size:.85rem;color:#bbb}
+.c-tiles{display:grid;gap:14px}
+@media (max-width:900px){.c-grid{grid-template-columns:1fr}.c-info{grid-template-columns:1fr}}

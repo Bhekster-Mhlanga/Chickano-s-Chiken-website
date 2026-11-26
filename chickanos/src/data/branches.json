@@ -38,8 +38,8 @@
     "tel": "072 881 2074",
     "landline": null,
     "address": "Block 4, Shop 9, Rodium Avenue Extension 4, Steelpoort, 1133",
-    "mapQuery": "Chickanos Steelpoort Rodium Avenue",
-    "directions": "https://maps.app.goo.gl/wefTDihPi9uHR99N9",
+    "mapQuery": "-24.7305475,30.2069371",
+    "directions": "https://www.google.com/maps/search/?api=1&query=-24.7305475,30.2069371",
     "delivers": true,
     "deliveryFee": null
   }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact – Chickano’s Chicken</title>
+<meta name="description" content="Contact Chickano’s Chicken: send an enquiry, complaint or compliment to your branch on WhatsApp or email, or call Lydenburg, Burgersfort, Acornhoek or Steelpoort.">
+<script>document.documentElement.classList.add("js")</script>
+<script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+{{> nav}}
+
+<main id="top">
+ <section class="m-hero ember">
+  <h1>Contact us</h1>
+  <p>Questions, a complaint or a compliment? Send it to the branch that served you, or reach head office.</p>
+ </section>
+
+ <section class="c-wrap">
+  <div class="c-info" id="cinfo"></div>
+
+  <div class="c-grid">
+   <form class="c-form" id="cform" novalidate aria-labelledby="feedback">
+    <h2 id="feedback">Send us a message</h2>
+    <div class="fld" role="group" aria-label="Message type">I’m sending a
+     <div class="seg three">
+      <label><input type="radio" name="ctype" value="Enquiry" checked><span>Enquiry</span></label>
+      <label><input type="radio" name="ctype" value="Complaint"><span>Complaint</span></label>
+      <label><input type="radio" name="ctype" value="Compliment"><span>Compliment</span></label>
+     </div>
+    </div>
+    <label class="fld">Branch<select id="cBranch"></select></label>
+    <label class="fld">Your name<input id="cName" autocomplete="name"></label>
+    <label class="fld">Phone<input id="cPhone" type="tel" autocomplete="tel"></label>
+    <label class="fld">Email<input id="cEmail" type="email" autocomplete="email"></label>
+    <label class="fld" id="cOrderW" hidden>When did you order? (optional)<input id="cOrder" placeholder="e.g. Saturday around 1pm, or order details"></label>
+    <label class="fld">Message<textarea id="cMsg" rows="5"></textarea></label>
+    <p class="err" id="cErr" role="alert"></p>
+    <div class="c-btns">
+     <button type="button" class="send" id="sendWa">Send on WhatsApp</button>
+     <button type="button" class="ghost" id="sendMail">Send by email</button>
+    </div>
+    <p class="c-note">This opens WhatsApp or your email app with your message ready to send. Nothing is stored on this website.</p>
+   </form>
+
+   <aside aria-labelledby="bh">
+    <h2 id="bh" class="c-h">Our branches</h2>
+    <div class="c-tiles" id="tiles"></div>
+   </aside>
+  </div>
+ </section>
+</main>
+
+{{> footer}}
+
+{{> cart}}
+</body>
+</html>
