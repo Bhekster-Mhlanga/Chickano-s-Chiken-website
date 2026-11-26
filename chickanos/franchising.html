@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Franchising – Become a Chickano’s Chicken franchise partner</title>
+<meta name="description" content="Become a Chickano’s Chicken franchise partner in Mpumalanga and Limpopo. Apply, submit a site, or request the company profile.">
+<script>document.documentElement.classList.add("js")</script>
+<script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+{{> nav}}
+
+<main id="top">
+ <section class="m-hero ember">
+  <h1>Become a franchise partner</h1>
+  <p>Franchise opportunities in Mpumalanga &amp; Limpopo.</p>
+ </section>
+
+ <section class="fr-wrap">
+  <figure class="fr-img" id="fImg" hidden><img id="fImgEl" alt="Chickano’s Chicken franchise"></figure>
+
+  <h2 class="c-h">Why choose us?</h2>
+  <div class="fr-stats">
+   <div class="t-card"><b><span id="fCount">4</span></b><p>stores &amp; growing</p></div>
+   <div class="t-card"><b>Proven</b><p>return on investment</p></div>
+   <div class="t-card"><b>R2.5m – R3.5m</b><p>approximate set-up cost</p></div>
+   <div class="t-card"><b>Great</b><p>operations &amp; marketing support</p></div>
+  </div>
+
+  <h2 class="c-h">Get started</h2>
+  <div class="fr-steps">
+   <div class="t-card"><h3>Apply now</h3><p>Tell us about yourself and why you want to join the Chickano’s family.</p><button class="b-b ord" data-pick="Franchise application">Apply now</button></div>
+   <div class="t-card"><h3>Submit a site</h3><p>Know a good location for a Chickano’s? Send us the details.</p><button class="b-b ord" data-pick="Site submission">Submit a site</button></div>
+   <div class="t-card"><h3>Company profile</h3><p>Ask for the company profile to learn more before you decide.</p><button class="b-b ord" data-pick="Company profile request">Request the profile</button></div>
+  </div>
+
+  <form class="c-form fr-form" id="fform" novalidate aria-labelledby="apply">
+   <h2 id="apply">Franchise enquiry</h2>
+   <div class="fld" role="group" aria-label="Enquiry type">I want to
+    <div class="seg three">
+     <label><input type="radio" name="ftype" value="Franchise application" checked><span>Apply</span></label>
+     <label><input type="radio" name="ftype" value="Site submission"><span>Submit a site</span></label>
+     <label><input type="radio" name="ftype" value="Company profile request"><span>Get the profile</span></label>
+    </div>
+   </div>
+   <label class="fld">Your name<input id="fName" autocomplete="name"></label>
+   <label class="fld">Phone<input id="fPhone" type="tel" autocomplete="tel"></label>
+   <label class="fld">Email<input id="fEmail" type="email" autocomplete="email"></label>
+   <label class="fld">Your town or area<input id="fArea" autocomplete="address-level2"></label>
+   <label class="fld" id="fSiteW" hidden>Site address and details<textarea id="fSite" rows="3" placeholder="Where is the site, who owns it, how big is it?"></textarea></label>
+   <label class="fld">Message (optional)<textarea id="fMsg" rows="4"></textarea></label>
+   <p class="err" id="fErr" role="alert"></p>
+   <div class="c-btns">
+    <button type="button" class="send" id="fWa">Send on WhatsApp</button>
+    <button type="button" class="ghost" id="fMail">Send by email</button>
+   </div>
+   <p class="c-note">This opens WhatsApp or your email app with your message ready to send to head office. Nothing is stored on this website.</p>
+  </form>
+ </section>
+</main>
+
+{{> footer}}
+
+{{> cart}}
+</body>
+</html>

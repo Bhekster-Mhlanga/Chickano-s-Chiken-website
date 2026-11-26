@@ -31,3 +31,16 @@ npm run build    # production build in dist/
 - "Open now" uses regular hours (Mon to Sat 8am to 8pm, Sun 9am to 8pm, South Africa time). It cannot know public holidays.
 - "Order from here" saves the branch for the cart and opens the Menu.
 - Needs confirming: Acornhoek and Steelpoort landlines (none on the old site), and a precise Steelpoort map pin.
+
+## Contact page
+- One form for enquiries, complaints and compliments (replaces the separate Complaints page; `/contact.html#feedback` opens it on "Complaint").
+- No server: "Send on WhatsApp" opens the chosen branch's WhatsApp with the message written, "Send by email" opens the visitor's email app addressed to the address in `src/data/site.json`. Nothing is stored. If the owners later want messages saved or emailed automatically, add a form service (Formspree, Web3Forms) or a serverless function.
+- Steelpoort's map pin now uses the coordinates from the old Contact page link. Please verify it.
+
+## Franchising page
+- Built from the old page's content only. The store count comes from `src/data/branches.json` (4), replacing the old "10+ stores" claim.
+- Unverified claims kept from the old site, to confirm with the owners before launch: "Proven return on investment" and the set-up cost (old text: "+-R2.5 mil / +-R3.5 mil", shown here as a range, which may be wrong if it meant two formats).
+- The old "Download company profile" button had no file. It is now "Request the company profile". When a PDF exists, put it in `public/` and link it.
+- The old poster image is not used. To show one, add it to `public/images/` and set `franchiseImage` in `src/data/site.json`.
+- No process, requirements or contact person were invented. Enquiries go to head office (Lydenburg WhatsApp and the email in `site.json`).
+- After this page, no navigation links point at the old chickanos.co.za site.

@@ -11,8 +11,8 @@ export default defineConfig({
         // Add each new page here as you build it:
         menu: resolve(__dirname, "menu.html"),
         find: resolve(__dirname, "find-a-chickano.html"),
-        // franchising: resolve(__dirname, "franchising.html"),
-        // contact: resolve(__dirname, "contact.html"),
+        franchising: resolve(__dirname, "franchising.html"),
+        contact: resolve(__dirname, "contact.html"),
       },
     },
   },
